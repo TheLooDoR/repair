@@ -1,0 +1,36 @@
+.consult {
+  background: $bg-dark;
+  padding-bottom: 80px;
+  .container {
+    .consult-form {
+      display: flex;
+      justify-content: center;
+      .form-wrap {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        border: 5px solid #fff;
+        padding-bottom: 60px;
+        .inputs {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding: 35px 35px 20px 35px;
+          .input-wrap {
+            padding: 20px;
+            input {
+              width: 290px;
+            }
+          }
+        }
+        .submit {
+          display: flex;
+          justify-content: center;
+          .btn {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}

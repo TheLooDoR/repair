@@ -1,0 +1,25 @@
+.why_us {
+  .container {
+    .odds {
+      justify-content: center;
+      .item {
+        padding: 80px 20px 85px 20px;
+        .odd_tittle, .odd_description {
+          max-width: 240px;
+          text-align: center;
+        }
+        img {
+          padding-bottom: 40px;
+        }
+        .odd_tittle {
+          @include bold;
+          font-size: 16px;
+          padding-bottom: 15px;
+        }
+        .odd_description {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

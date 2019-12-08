@@ -1,0 +1,556 @@
+.reviews-mobile {
+  display: none;
+}
+
+.marks_mobile {
+  display: none;
+}
+
+@media(min-width: 0px) and (max-width: 320px) {
+  header {
+    .head {
+      .callback {
+        text-align: right;
+        span {
+          font-size: 18px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    .hero {
+      padding-top: 70px;
+      .hero-header {
+        padding-bottom: 40px;
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .advantages {
+        flex-flow: column wrap;
+        .item {
+          padding-top: 20px;
+        }
+      }
+      .buttons {
+        padding-top: 70px;
+        align-items: center;
+        justify-content: center;
+        .item {
+          margin: 0 7px;
+          padding-top: 20px;
+          button {
+            width: 175px;
+            height: 40px;
+            font-size: 15px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+        .review-wrap {
+          padding-right: 0;
+          .review {
+            .text {
+              max-width: 230px;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.why_us {
+    .container {
+      .odds {
+        .item {
+          padding: 40px 20px 45px 20px;
+          img {
+            padding-bottom: 25px;
+            width: 40px;
+          }
+          .odd_tittle {
+            font-size: 14px;
+          }
+          .odd_description {
+            font-size: 12px;
+            max-width: 180px;
+          }
+        }
+      }
+    }
+  }
+  section.order {
+    .container {
+      .form-wrap {
+        padding: 50px 15px;
+      }
+    }
+  }
+  section.stock {
+    .container {
+      .marks {
+        display: none;
+      }
+      .marks_mobile {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  section.view {
+    .container {
+      .video {
+        .video-wrap {
+          .border {
+            .video-el {
+              width: 270px;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.consult {
+    .container {
+      .consult-form {
+        .form-wrap {
+          .inputs {
+            padding: 35px 0 20px 0;
+            .input-wrap {
+              padding: 20px 0;
+              input {
+                width: 260px;
+              }
+            }
+          }
+          .submit {
+            .btn {
+              width: 260px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer__contact {
+      .phone-number {
+        font-size: 15px;
+        text-align: right;
+      }
+      .callback {
+        padding: 5px;
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  header {
+    .head {
+      .callback {
+        text-align: right;
+        span {
+          font-size: 18px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    .hero {
+      padding-top: 70px;
+      .hero-header {
+        padding-bottom: 40px;
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+      .advantages {
+        flex-flow: column wrap;
+        .item {
+          padding-top: 20px;
+        }
+      }
+      .buttons {
+        padding-top: 70px;
+        align-items: center;
+        justify-content: center;
+        .item {
+          margin: 0 7px;
+          padding-top: 20px;
+          button {
+            width: 175px;
+            height: 40px;
+            font-size: 15px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  section.why_us {
+    .container {
+      .odds {
+        .item {
+          padding: 40px 20px 45px 20px;
+          img {
+            padding-bottom: 25px;
+            width: 40px;
+          }
+          .odd_tittle {
+            font-size: 14px;
+          }
+          .odd_description {
+            font-size: 12px;
+            max-width: 180px;
+          }
+        }
+      }
+    }
+  }
+  section.order {
+    .container {
+      .form-wrap {
+        padding: 50px 15px;
+        .row {
+          align-items: center;
+        }
+        .select-wrap {
+          select {
+            width: 78vw;
+          }
+        }
+        .textarea-wrap {
+          textarea {
+            width: 78vw;
+          }
+        }
+        .input-wrap {
+          input {
+            width: 78vw;
+          }
+        }
+        .btn {
+          width: 180px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  section.stock {
+    .container {
+      .marks {
+        display: none;
+      }
+      .marks_mobile {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  section.view {
+    .container {
+      .video {
+        .video-wrap {
+          .border {
+            .video-el {
+              width: 85vw;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.consult {
+    .container {
+      .consult-form {
+        .form-wrap {
+          .inputs {
+            padding: 35px 0 20px 0;
+            .input-wrap {
+              padding: 20px 0;
+              input {
+                width: 260px;
+              }
+            }
+          }
+          .submit {
+            .btn {
+              width: 260px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    .hero {
+      padding-top: 75px;
+      .hero-header {
+        padding-bottom: 70px;
+        h2 {
+          font-size: 35px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      .advantages {
+        flex-flow: column wrap;
+        .item {
+          padding-top: 20px;
+        }
+      }
+      .buttons {
+        .item {
+          button {
+            width: 175px;
+            height: 40px;
+            font-size: 15px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  section.order {
+    .container {
+      .form-wrap {
+        padding: 50px 15px;
+        .row {
+          align-items: center;
+        }
+        .select-wrap {
+          select {
+            width: 200px;
+          }
+        }
+        .textarea-wrap {
+          textarea {
+            width: 200px;
+          }
+        }
+        .input-wrap {
+          input {
+            width: 200px;
+          }
+        }
+        .btn {
+          width: 180px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+        .review-wrap {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  section.view {
+    .container {
+      .video {
+        .video-wrap {
+          .border {
+            .video-el {
+              width: 90vw;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.consult {
+    .container {
+      .consult-form {
+        .form-wrap {
+          .inputs {
+            flex-flow: column wrap;
+            .input-wrap {
+              input {
+                width: 75vw;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  header {
+    .hero {
+      .advantages {
+        .item {
+          width: 17%;
+        }
+      }
+    }
+  }
+  section.why_us {
+    .odds {
+      .item {
+        padding: 60px 20px 65px 20px;
+      }
+    }
+  }
+  section.order {
+    .form-wrap {
+      .row {
+        .select-wrap {
+          select {
+            width: 180px;
+          }
+        }
+        .textarea-wrap {
+          textarea {
+            width: 180px;
+          }
+        }
+        .input-wrap {
+          input {
+            width: 180px;
+          }
+        }
+        .btn {
+          width: 180px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  section.consult {
+    .container {
+      .consult-form {
+        .form-wrap {
+          .inputs {
+            flex-flow: column wrap;
+            .input-wrap {
+              input {
+                width: 70vw;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+        .review-wrap {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  section.view {
+    .container {
+      .video {
+        .video-wrap {
+          .border {
+            .video-el {
+              width: 94vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media(min-width: 993px) and (max-width: 1200px) {
+  section.about-us {
+    .container {
+      .reviews {
+        display: none;
+      }
+      .reviews-mobile {
+        display: flex;
+        justify-content: center;
+        .review-wrap {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1201px){
+  section.about-us {
+    .container {
+      .reviews-mobile {
+        display: none;
+      }
+    }
+  }
+}

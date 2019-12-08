@@ -1,0 +1,22 @@
+.view {
+  padding-bottom: 80px;
+  .container {
+    .video {
+      display: flex;
+      justify-content: center;
+      .video-wrap {
+        .border {
+          border: 5px solid #f2f2f2;
+          .video-el {
+            width: 780px;
+            height: 390px;
+            background: #3b3b3b;
+            border: 15px solid #fff;
+          }
+        }
+
+      }
+    }
+
+  }
+}

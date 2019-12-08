@@ -1,0 +1,52 @@
+.about-us {
+  background: $bg-ligh;
+  padding-bottom: 80px;
+  .container {
+    .section-header {
+      padding-bottom: 0;
+    }
+    .reviews, .reviews-mobile {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      .review-wrap {
+        max-width: 440px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-right: 30px;
+        padding-top: 55px;
+        .avatar {
+          img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+          }
+
+          padding-right: 20px;
+        }
+        .review {
+          display: flex;
+          flex-flow: column wrap;
+          .name {
+            @include bold;
+            font-size: 12px;
+            color: $review-light;
+            padding-bottom: 13px;
+          }
+          .thesis {
+            @include bold;
+            font-size: 16px;
+            color: $main;
+            padding-bottom: 17px;
+          }
+          .text {
+            @include bold;
+            font-size: 13px;
+            color: $review-dark;
+          }
+        }
+      }
+    }
+  }
+}

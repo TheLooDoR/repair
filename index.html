@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Кузовной ремонт</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <img src="" alt="Логотип">
+                <div class="callback menu">
+                    <span>8 800 232 32 12</span>
+                    <a href="#consult">Заказать обратный звонок</a>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero-header">
+                    <h2>Продажа кузовых запчастей</h2>
+                    <p>c заводской покраской без пробега по РФ</p>
+                </div>
+                <div class="items advantages">
+                    <div class="item">
+                        <img src="./img/header/car.png" alt="Доставка по РФ от 3-х дней">
+                        <span>Доставка по РФ от 3-х дней</span>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/new.png" alt="Новое состояние по цене б/у">
+                        <span>Новое состояние по цене б/у</span>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/list.png" alt="Наличие более 500 различных деталей">
+                        <span>Наличие более 500 различных деталей</span>
+                    </div>
+                </div>
+                <div class="items buttons menu" id="menu">
+                    <div class="item">
+                        <a href="#consult">
+                            <button class="btn btn-n">Быстрая заявка</button>
+                        </a>
+                        <span>Мы перезвоним вам для уточнения деталей</span>
+                    </div>
+                    <div class="item">
+                        <a href="#order">
+                            <button class="btn btn-o">Подробная заявка</button>
+                        </a>
+
+                        <span>Заполните подробную заявку онлайн!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="why_us">
+            <div class="container">
+                <div class="items odds">
+                    <div class="item">
+                        <img src="./img/header/why_us/check-list.png" alt="">
+                        <span class="odd_tittle">Более 1000 наименований</span>
+                        <p class="odd_description">Возможность заказа и подбора более чем по 2000 наименований деталей</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/why_us/car.png" alt="">
+                        <span class="odd_tittle">Доставка в любой регион РФ</span>
+                        <p class="odd_description">Мы работаем с любой транспортной компанией и осуществляем доставку в любой регион РФ  </p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/why_us/new.png" alt="">
+                        <span class="odd_tittle">Новое состояние деталей</span>
+                        <p class="odd_description">Наши детали не были в употреблении и имеют состояние новых</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/why_us/stars.png" alt="">
+                        <span class="odd_tittle">Европейское качество</span>
+                        <p class="odd_description">Все наши детали привезены из Европы, что гарантирует отличное качество.</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/header/why_us/documents.png" alt="">
+                        <span class="odd_tittle">Работаем по договору</span>
+                        <p class="odd_description">Все, что мы делаем - официально. Мы заключаем договор купли-продажи и предоставляем все необходимые документы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="title">Подробная заявка</h2>
+                    <span class="subtitle">Заполните форму и получите максимально точную цену!</span>
+                </div>
+                <form action="">
+                    <div class="form-wrap">
+                        <div class="row">
+                            <div class="select-wrap element">
+                                <label for="mark">Марка</label>
+                                <div class="custom-select">
+                                    <select name="" id="mark">
+                                        <option selected>Выберите марку</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="select-wrap element">
+                                <label for="model">Модель</label>
+                                <div class="custom-select">
+                                    <select name="" id="model">
+                                        <option selected>Выберите модель</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="select-wrap element">
+                                <label for="year">Год выпуска</label>
+                                <div class="custom-select">
+                                    <select name="" id="year">
+                                        <option selected>Выберите год</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="textarea-wrap element">
+                                <label for="details">Необходимые детали</label>
+                                <div class="custom-textarea">
+                                    <textarea name="details" id="details" cols="30" rows="10" placeholder="Введите"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="input-wrap element grow">
+                                <label for="name">Ваше имя</label>
+                                <div class="custom-input">
+                                    <input type="text" placeholder="Введите" id="name">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="input-wrap element">
+                                <label for="tel">Ваш телефон</label>
+                                <div class="custom-input">
+                                    <input type="tel" id="tel" value="+380">
+                                </div>
+                            </div>
+
+                            <div class="input-wrap element">
+                                <label for="email">Ваш почтовый адрес</label>
+                                <div class="custom-input">
+                                    <input type="email" id="email">
+                                </div>
+                            </div>
+
+                            <button class="btn btn-n element" type="submit">Узнать цену</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="stock">
+            <div class="container">
+                <div class="section-header">
+                    <div class="title">
+                        Имеем в наличии делати авто:
+                    </div>
+                </div>
+                <div class="marks">
+                    <img src="./img/marks/audi.jpg" alt="Audi">
+                    <img src="./img/marks/mers.jpg" alt="Mercedes-Benz">
+                    <img src="./img/marks/bmw.jpg" alt="BMW">
+                    <img src="./img/marks/volk.jpg" alt="Volkswagen">
+                    <img src="./img/marks/jaguar.jpg" alt="Jaguar">
+                    <img src="./img/marks/volvo.jpg" alt="Volvo">
+                    <img src="./img/marks/mini.jpg" alt="Mini">
+                    <img src="./img/marks/landrower.jpg" alt="Land Rover">
+                    <img src="./img/marks/honda.jpg" alt="Honda">
+                    <img src="./img/marks/jeep.jpg" alt="Jeep">
+                    <img src="./img/marks/bentley.jpg" alt="Bentley">
+                    <img src="./img/marks/porshe.jpg" alt="Porsche">
+                    <img src="./img/marks/mazda.jpg" alt="Mazda">
+                </div>
+                <div class="marks_mobile">
+                    <div class="fotorama" data-autoplay="3000" data-arrows="false">
+                        <img src="./img/marks/audi.jpg" alt="Audi">
+                        <img src="./img/marks/mers.jpg" alt="Mercedes-Benz">
+                        <img src="./img/marks/bmw.jpg" alt="BMW">
+                        <img src="./img/marks/volk.jpg" alt="Volkswagen">
+                        <img src="./img/marks/jaguar.jpg" alt="Jaguar">
+                        <img src="./img/marks/volvo.jpg" alt="Volvo">
+                        <img src="./img/marks/mini.jpg" alt="Mini">
+                        <img src="./img/marks/landrower.jpg" alt="Land Rover">
+                        <img src="./img/marks/honda.jpg" alt="Honda">
+                        <img src="./img/marks/jeep.jpg" alt="Jeep">
+                        <img src="./img/marks/bentley.jpg" alt="Bentley">
+                        <img src="./img/marks/porshe.jpg" alt="Porsche">
+                        <img src="./img/marks/mazda.jpg" alt="Mazda">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="view">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="title">Вы можете посмотреть что происходит у нас!</h2>
+                </div>
+                <div class="video">
+                    <div class="video-wrap">
+                        <div class="border">
+                            <div class="video-el"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="title">Клиенты о нас</h2>
+                </div>
+                <div class="reviews">
+                    <div class="review-wrap">
+                        <div class="avatar">
+                            <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                        </div>
+                        <div class="review">
+                            <div class="name">
+                                <span>Иван Иванович</span>
+                            </div>
+                            <div class="thesis">
+                                <h4>Не могу найти фару для авто</h4>
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Мотордеталь в широком ассортименте по ценам
+                                    от известного дистрибьютора автозапчастей.
+                                    ООО "РАДИАТОР" пользуется заслуженным уважением
+                                    среди покупателей, благодаря высокому сервису,
+                                    скидкам, отличному качеству продукции.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-wrap">
+                        <div class="avatar">
+                            <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                        </div>
+                        <div class="review">
+                            <div class="name">
+                                <span>Иван Иванович</span>
+                            </div>
+                            <div class="thesis">
+                                <h4>Не могу найти фару для авто</h4>
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Мотордеталь в широком ассортименте по ценам
+                                    от известного дистрибьютора автозапчастей.
+                                    ООО "РАДИАТОР" пользуется заслуженным уважением
+                                    среди покупателей, благодаря высокому сервису,
+                                    скидкам, отличному качеству продукции.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-wrap">
+                        <div class="avatar">
+                            <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                        </div>
+                        <div class="review">
+                            <div class="name">
+                                <span>Иван Иванович</span>
+                            </div>
+                            <div class="thesis">
+                                <h4>Не могу найти фару для авто</h4>
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Мотордеталь в широком ассортименте по ценам
+                                    от известного дистрибьютора автозапчастей.
+                                    ООО "РАДИАТОР" пользуется заслуженным уважением
+                                    среди покупателей, благодаря высокому сервису,
+                                    скидкам, отличному качеству продукции.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-wrap">
+                        <div class="avatar">
+                            <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                        </div>
+                        <div class="review">
+                            <div class="name">
+                                <span>Иван Иванович</span>
+                            </div>
+                            <div class="thesis">
+                                <h4>Не могу найти фару для авто</h4>
+                            </div>
+                            <div class="text">
+                                <p>
+                                    Мотордеталь в широком ассортименте по ценам
+                                    от известного дистрибьютора автозапчастей.
+                                    ООО "РАДИАТОР" пользуется заслуженным уважением
+                                    среди покупателей, благодаря высокому сервису,
+                                    скидкам, отличному качеству продукции.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-mobile">
+                    <div class="fotorama" data-height="300"
+                         data-arrows="false" data-autoplay="3000">
+                        <div class="review-wrap">
+                            <div class="avatar">
+                                <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                            </div>
+                            <div class="review">
+                                <div class="name">
+                                    <span>Иван Иванович</span>
+                                </div>
+                                <div class="thesis">
+                                    <h4>Не могу найти фару для авто</h4>
+                                </div>
+                                <div class="text">
+                                    <p>
+                                        Мотордеталь в широком ассортименте по ценам
+                                        от известного дистрибьютора автозапчастей.
+                                        ООО "РАДИАТОР" пользуется заслуженным уважением
+                                        среди покупателей, благодаря высокому сервису,
+                                        скидкам, отличному качеству продукции.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-wrap">
+                            <div class="avatar">
+                                <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                            </div>
+                            <div class="review">
+                                <div class="name">
+                                    <span>Иван Иванович</span>
+                                </div>
+                                <div class="thesis">
+                                    <h4>Не могу найти фару для авто</h4>
+                                </div>
+                                <div class="text">
+                                    <p>
+                                        Мотордеталь в широком ассортименте по ценам
+                                        от известного дистрибьютора автозапчастей.
+                                        ООО "РАДИАТОР" пользуется заслуженным уважением
+                                        среди покупателей, благодаря высокому сервису,
+                                        скидкам, отличному качеству продукции.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-wrap">
+                            <div class="avatar">
+                                <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                            </div>
+                            <div class="review">
+                                <div class="name">
+                                    <span>Иван Иванович</span>
+                                </div>
+                                <div class="thesis">
+                                    <h4>Не могу найти фару для авто</h4>
+                                </div>
+                                <div class="text">
+                                    <p>
+                                        Мотордеталь в широком ассортименте по ценам
+                                        от известного дистрибьютора автозапчастей.
+                                        ООО "РАДИАТОР" пользуется заслуженным уважением
+                                        среди покупателей, благодаря высокому сервису,
+                                        скидкам, отличному качеству продукции.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-wrap">
+                            <div class="avatar">
+                                <img src="./img/reviews/avatar.jpg" alt="Иван Иванович">
+                            </div>
+                            <div class="review">
+                                <div class="name">
+                                    <span>Иван Иванович</span>
+                                </div>
+                                <div class="thesis">
+                                    <h4>Не могу найти фару для авто</h4>
+                                </div>
+                                <div class="text">
+                                    <p>
+                                        Мотордеталь в широком ассортименте по ценам
+                                        от известного дистрибьютора автозапчастей.
+                                        ООО "РАДИАТОР" пользуется заслуженным уважением
+                                        среди покупателей, благодаря высокому сервису,
+                                        скидкам, отличному качеству продукции.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="consult" id="consult">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="title">Нужна консультация?</h2>
+                    <span class="subtitle">
+                    Заполните форму и получите максимально точную цену!
+                </span>
+                </div>
+                <form action="" class="consult-form">
+                    <div class="form-wrap">
+                        <div class="row inputs">
+                            <div class="input-wrap">
+                                <label for="name_consult">Ваше имя</label>
+                                <div class="custom-input">
+                                    <input type="text" placeholder="Введите" id="name_consult">
+                                </div>
+                            </div>
+                            <div class="input-wrap">
+                                <label for="phone_consult">Ваше номер телефона</label>
+                                <div class="custom-input">
+                                    <input type="tel" placeholder="Введите" id="phone_consult" value="+380">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row submit">
+                            <button class="btn btn-n" type="submit">Заказать консультацию</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="hero">
+<!--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4506.39143503292!2d37.62241099070487!3d55.6160101038373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab25bfbda3a63%3A0x8cc74fb6605a0a52!2z0JTQvtGA0L7QttC90LDRjyDRg9C7LiwgOCDQutC-0YDQv9GD0YEgMSwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDExNzU0NQ!5e0!3m2!1sru!2sua!4v1575812226455!5m2!1sru!2sua" frameborder="0" style="border:0;" allowfullscreen="false" style="pointer-events:none"></iframe>-->
+
+<!--            <div class="map" style="width: 100%; height: 550px; position: absolute; z-index: 1">-->
+
+<!--            </div>-->
+            <div class="address-wrap">
+                <div class="title">
+                    <span>Контакты</span>
+                </div>
+                <div class="address">
+                    <p>г. Москва, ул. Дорожная, 8, к.1</p>
+                </div>
+                <div class="phone-number">
+                    <span>8 800 123 43 34</span>
+                </div>
+                <div class="mail">
+                    <span>info@sitename.ru</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__contact">
+                <div class="logo">
+                    <img src="#" alt="Логотип">
+                </div>
+                <div class="contacts-wrap">
+                    <div class="phone-number">
+                        8 800 232 32 12
+                    </div>
+                    <div class="callback menu">
+                        <a href="#consult">Заказать обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $(".menu").on("click","a", function (event) {
+                //отменяем стандартную обработку нажатия по ссылке
+                event.preventDefault();
+
+                //забираем идентификатор бока с атрибута href
+                var id  = $(this).attr('href'),
+
+                    //узнаем высоту от начала страницы до блока на который ссылается якорь
+                    top = $(id).offset().top;
+
+                //анимируем переход на расстояние - top за 1500 мс
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>

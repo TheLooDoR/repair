@@ -1,0 +1,17 @@
+.container {
+  max-width: 945px;
+  margin: auto;
+  width: 90%;
+}
+.row {
+  display: block;
+}
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  .item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}

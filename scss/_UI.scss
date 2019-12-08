@@ -1,0 +1,129 @@
+//-----------------------------------------------------BTN
+.btn {
+  @include bold;
+  font-size: 18px;
+  box-sizing: border-box;
+  width: 240px;
+  height: 50px;
+  border-radius: 100px;
+  color: #ffffff;
+  -moz-transition: background-color 0.2s 0.02s ease;
+  -o-transition: background-color 0.2s 0.02s ease;
+  -webkit-transition: background-color 0.2s 0.02s ease;
+}
+
+.btn-n {
+  border: none;
+  background: $main;
+  &:hover {
+    background-color: rgba(217, 18, 51, .6);
+  }
+}
+
+.btn-o {
+  border: 2px solid $main;
+  background: transparent;
+  &:hover {
+    background-color: rgba(205, 75, 69, .1);
+    outline: none;
+  }
+}
+//---------------------------------------------SECTION-HEADER
+.section-header {
+  text-align: center;
+  padding: 80px 0 60px 0;
+  .title {
+    @include bold;
+    font-size: 30px;
+  }
+  .subtitle {
+    @include regular;
+    font-size: 16px;
+    display: block;
+    margin-top: 25px;
+  }
+}
+
+//-------------------------------------------------------FORM
+.form-wrap {
+  label {
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.element {
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.select-wrap {
+  .custom-select {
+    position: relative;
+    select {
+      padding: 15px;
+      box-sizing: border-box;
+      width: 240px;
+      height: 40px;
+      border: none;
+      -webkit-appearance: none;
+      outline: none;
+      color: $text-form;
+      font-size: 13px;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      right: 0;
+      top: 0;
+      width: 50px;
+      height: 40px;
+      border-left: 1px solid #b8b8b8;
+      background: white url("../img/select.png") no-repeat center center;
+      pointer-events: none;
+    }
+
+    &:hover {
+      &:before {
+        color: white;
+        background: #f7f4f4 url("../img/select.png") no-repeat center center;
+      }
+    }
+  }
+}
+
+.textarea-wrap {
+  .custom-textarea {
+    textarea {
+      box-sizing: border-box;
+      height: 120px;
+      width: 240px;
+      border: none;
+      outline: none;
+      resize: none;
+      font-size: 13px;
+      color: $text-form;
+      padding: 15px;
+    }
+  }
+}
+
+.input-wrap {
+  .custom-input {
+    input {
+      padding: 15px;
+      box-sizing: border-box;
+      width: 240px;
+      height: 40px;
+      border: none;
+      font-size: 13px;
+      color: $text-form;
+    }
+  }
+}
+
+
+

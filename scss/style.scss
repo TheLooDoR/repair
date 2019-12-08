@@ -1,0 +1,23 @@
+@import "_fonts";
+@import "_colors";
+// НАСТРОЙКА
+body {
+   @include regular;
+}
+h1, h2, h3, h4, p {
+   margin: 0;
+}
+@import "_grid";
+@import "_UI";
+// БЛОКИ
+@import "_header";
+@import "blocks/why_us";
+@import "blocks/order";
+@import "blocks/stock";
+@import "blocks/video";
+@import "blocks/about-us";
+@import "blocks/_consult";
+@import '_footer';
+
+@import "adaptive";
+

@@ -1,0 +1,13 @@
+.stock {
+  .container {
+    .marks {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      img {
+        padding: 10px 10px;
+        position: relative;
+      }
+    }
+  }
+}
